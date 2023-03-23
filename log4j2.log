@@ -1,0 +1,16 @@
+2023-Mar-23 22:22:41 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Kosal Tep
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Raksmey Vy
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
+2023-Mar-23 22:22:42 PM [main] WARN  kh.edu.aeu.msit.execise.SampleJDBC - San Sok is not create.
+2023-Mar-23 22:22:42 PM [main] WARN  kh.edu.aeu.msit.execise.SampleJDBC - Sour Bopha is not create.
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Kosal Tep
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Raksmey Vy
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
+2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
