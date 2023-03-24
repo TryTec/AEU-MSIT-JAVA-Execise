@@ -14,3 +14,225 @@
 2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha
 2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
 2023-Mar-23 22:22:42 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 22:09:30 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 22:09:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 22:09:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Kosal Tep null
+2023-Mar-24 22:09:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Raksmey Vy null
+2023-Mar-24 22:09:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok null
+2023-Mar-24 22:09:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 22:09:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
+2023-Mar-24 22:09:31 PM [main] ERROR kh.edu.aeu.msit.execise.SampleJDBC - SQLException: Column count doesn't match value count at row 1
+java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3597) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3529) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1990) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2151) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2619) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1709) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1628) ~[mysql-connector-java-5.1.17.jar:?]
+	at kh.edu.aeu.msit.execise.SampleJDBC.createStudent(SampleJDBC.java:82) ~[classes/:?]
+	at kh.edu.aeu.msit.execise.SampleJDBC.main(SampleJDBC.java:41) [classes/:?]
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Kosal Tep null
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Raksmey Vy null
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok null
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Mean Ban is created.
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Rich Ray is created.
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Kosal Tep null
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Raksmey Vy null
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok null
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
+2023-Mar-24 22:24:00 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Kosal Tep null
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Raksmey Vy null
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok null
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Mean Ban is created.
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Rich Ray is created.
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Kosal Tep null
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Raksmey Vy null
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok null
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 8 : Mean Ban 2000-03-24
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 9 : Rich Ray 2001-01-12
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
+2023-Mar-24 22:43:15 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - this record id 2 has been deleted.
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok null
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 8 : Mean Ban 2000-03-24
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 9 : Rich Ray 2001-01-12
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read has been done
+2023-Mar-24 22:51:09 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok null
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 8 : Mean Ban 2000-03-24
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 9 : Rich Ray 2001-01-12
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read student has been done
+2023-Mar-24 23:07:17 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:08:46 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:08:47 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:08:47 PM [main] ERROR kh.edu.aeu.msit.execise.SampleJDBC - SQLException: Table 'javacambodia-jdbc.td_lesson' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'javacambodia-jdbc.td_lesson' doesn't exist
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:386) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3597) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3529) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1990) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2151) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2619) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2569) ~[mysql-connector-java-5.1.17.jar:?]
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1521) ~[mysql-connector-java-5.1.17.jar:?]
+	at kh.edu.aeu.msit.execise.SampleJDBC.readLession(SampleJDBC.java:113) ~[classes/:?]
+	at kh.edu.aeu.msit.execise.SampleJDBC.main(SampleJDBC.java:52) [classes/:?]
+2023-Mar-24 23:10:30 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:10:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:10:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:10:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Lesson1 is created.
+2023-Mar-24 23:10:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:10:31 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:10:55 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:10:55 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:10:55 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:10:55 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:10:55 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Lesson2 is created.
+2023-Mar-24 23:10:55 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:10:55 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:11:25 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:11:25 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:11:25 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:11:25 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Lesson2
+2023-Mar-24 23:11:25 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:11:25 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Lesson3 is created.
+2023-Mar-24 23:11:25 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:11:25 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Lesson2
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : Lesson3
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Lesson4 is created.
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:11:43 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:11:55 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:11:56 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:11:56 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:11:56 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Lesson2
+2023-Mar-24 23:11:56 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : Lesson3
+2023-Mar-24 23:11:56 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Lesson4
+2023-Mar-24 23:11:56 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:11:56 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:11:56 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - this record id 4 has been deleted.
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Lesson2
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : Lesson3
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:12:54 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:14:50 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : San Sok null
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 8 : Mean Ban 2000-03-24
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 9 : Rich Ray 2001-01-12
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read student has been done
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Lesson2
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : Lesson3
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:14:51 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - this record id 3 has been deleted.
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 4 : Sour Bopha null
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 8 : Mean Ban 2000-03-24
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 9 : Rich Ray 2001-01-12
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read student has been done
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Lesson2
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : Lesson3
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:15:20 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:15:32 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - this record id 4 has been deleted.
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 8 : Mean Ban 2000-03-24
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 9 : Rich Ray 2001-01-12
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read student has been done
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Lesson2
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : Lesson3
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:15:33 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC -  --- Sample JDBC --- 
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Database connected!
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading student: 
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 5 : Roum Doul 2002-01-13
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 6 : Mean Ban 2000-03-24
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 7 : Rich Ray 2001-01-12
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 8 : Mean Ban 2000-03-24
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 9 : Rich Ray 2001-01-12
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read student has been done
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - All reading lesson: 
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 1 : Lesson1
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 2 : Lesson2
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - > 3 : Lesson3
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Read lession has been done
+2023-Mar-24 23:15:59 PM [main] INFO  kh.edu.aeu.msit.execise.SampleJDBC - Connection has been closed.
